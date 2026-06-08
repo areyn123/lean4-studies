@@ -1,0 +1,15 @@
+# Lean 4 build artifacts
+.lake/
+build/
+lake-packages/
+
+# Editor files
+*.olean
+*.ilean
+*.trace
+
+# direnv
+.direnv/
+
+# Nix
+result
