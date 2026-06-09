@@ -1,1 +1,6 @@
-import Lean4Studies.NaturalNumberGame
+import Lean4Studies.MyNat.Definition
+import Lean4Studies.MyNat.Addition
+import Lean4Studies.MyNat.Multiplication
+import Lean4Studies.MyNat.Power
+import Lean4Studies.MyNat.Order
+import Lean4Studies.MyNat.Cancellation

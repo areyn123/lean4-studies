@@ -4,8 +4,8 @@ title: Lean 4 Studies
 
 # Lean 4 Studies
 
-Working notes from learning Lean 4, primarily through the [Lean 4 Game Server](https://adam.math.hhu.de/).
+Working notes from learning Lean 4 — equational reasoning, natural number arithmetic, and theorem proving.
 
-## Games
+## Topics
 
-- [Natural Number Game](NaturalNumberGame/)
+- [MyNat](MyNat/) — Building natural number arithmetic from scratch (Peano axioms, addition, multiplication, exponentiation, ordering, cancellation)
