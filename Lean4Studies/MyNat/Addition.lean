@@ -15,11 +15,10 @@ instance : Add MyNat where add := add
 theorem add_zero (a : MyNat) : a + 0 = a := rfl
 theorem add_succ (a b : MyNat) : a + succ b = succ (a + b) := rfl
 
--- Theorems to prove:
--- zero_add (n : MyNat) : 0 + n = n
--- succ_add (a b : MyNat) : succ a + b = succ (a + b)
--- add_comm (a b : MyNat) : a + b = b + a
--- add_assoc (a b c : MyNat) : a + b + c = a + (b + c)
--- add_right_comm (a b c : MyNat) : a + b + c = a + c + b
+theorem zero_add (n : MyNat) : 0 + n = n := sorry
+theorem succ_add (a b : MyNat) : succ a + b = succ (a + b) := sorry
+theorem add_comm (a b : MyNat) : a + b = b + a := sorry
+theorem add_assoc (a b c : MyNat) : a + b + c = a + (b + c) := sorry
+theorem add_right_comm (a b c : MyNat) : a + b + c = a + c + b := sorry
 
 end MyNat
